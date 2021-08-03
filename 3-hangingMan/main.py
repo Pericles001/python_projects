@@ -3,16 +3,21 @@
 # Press Maj+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-import json
+
+def hangman():
+    
 
 
-def dic():
-    data = json.load(open("data.json"))
-    print(data["smog"])
+def guess():
+    name = input("Enter your name")
+    print("Welcome" + name )
+    print("------------------")
+    print('Try to guess the word in less than 18 attempts ')
+    hangman()
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    dic()
+    guess()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
