@@ -30,7 +30,7 @@ def prompt():
     user_min = int(user_input)
     while user_input != "done":
         print(user_input)
-        user_array += user_input
+#       user_array += user_input
         if int(user_input) < user_min:
             user_min = int(user_input)
             print("all new min is :", user_min)
