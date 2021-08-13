@@ -75,8 +75,7 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "textTo Speech"))
         self.appTitle.setText(_translate("MainWindow", "Text To Speech"))
         self.textTitle.setText(_translate("MainWindow", "  Write Or Paste Your Text "))
-        self.convertBtn.setText(_translate("MainWindow", "Convert To Audio"))
-from kpushbutton import KPushButton
+## from kpushbutton import KPushButton
 import source_rc
 
 
