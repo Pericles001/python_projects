@@ -1,6 +1,8 @@
 # python_projects
 python training repository
 
+![](resources/python_image.jpg)
+
 ## Description
 
  Here in this repository, you will find a set of python projects from simple to complex 
