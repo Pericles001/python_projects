@@ -34,5 +34,8 @@ python training repository
 ## Contributors Guide
 
   If you want to help me improve the repository you can fork the project and add you own features or updates then pull request and add me as reviewer
+  When you find out error, don't hesitate to correct it .
+
+  
   
 ### Enjoy python! 
