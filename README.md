@@ -20,9 +20,9 @@ python training repository
 * [8. Password generator](./8-password-generator)
 * [9. Shutdown](./9-shutdown)
 * [10. Simple browser](./10-simple_browser)
- [11. Text to speech](./11-text_to_speech)
- [12. Weather-finder](./12-weather-finder) 
- [13. Web server](./13-web_server)
+* [11. Text to speech](./11-text_to_speech)
+* [12. Weather-finder](./12-weather-finder) 
+* [13. Web server](./13-web_server)
  
  ## User Guide 
  
