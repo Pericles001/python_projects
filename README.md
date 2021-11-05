@@ -6,6 +6,11 @@ python training repository
  Here in this repository, you will find a set of python projects from simple to complex 
  most of time working in the console and sometime with GUI.
  
+ ## Projects list
+ 
+ 
+ 
+ 
  ## User Guide 
  
    Do you want to try these projects? Just clone the current repository and type the following commands in individual folder:
