@@ -1,6 +1,6 @@
 # HANGING MAN
 
-![](resources/hangman.jpg)
+![](http://www.freehangmangames.com/hangman-pictures/deadhangman.jpg)
 
 ## What is a hanging man ?
 Hanging man is one of the most popular society games known .
