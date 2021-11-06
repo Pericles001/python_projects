@@ -1,5 +1,7 @@
 ## SIMPLE BROWSER
 
+![](https://www.researchgate.net/profile/Matija-Varga-2/publication/270904300/figure/fig1/AS:645020927410177@1530796381815/Web-browser-software-architecture.png)
+
 ## What is a browser ? 
 
 A **web browser** (commonly referred to as a **browser**) is [application software](https://en.wikipedia.org/wiki/Application_software "Application software") for accessing the [World Wide Web](https://en.wikipedia.org/wiki/World_Wide_Web "World Wide Web"). When a [user](https://en.wikipedia.org/wiki/User_(computing) "User (computing)") requests a [web page](https://en.wikipedia.org/wiki/Web_page "Web page") from a particular [website](https://en.wikipedia.org/wiki/Website "Website"), the web browser retrieves the necessary content from a [web server](https://en.wikipedia.org/wiki/Web_server "Web server") and then displays the page on the user's device.
