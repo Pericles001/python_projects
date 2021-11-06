@@ -1,8 +1,8 @@
 import socket
 
 mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-mysock.connect(('pericles001-dev.surge.sh', 80))
-cmd = 'GET http://pericles001-dev.surge.sh/index.html HTTP/1.0\r\n\r\n'.encode()
+mysock.connect(('https://icons.getbootstrap.com/icons/download/', 80))
+cmd = 'GET https://icons.getbootstrap.com/icons/download/ HTTP/1.0\r\n\r\n'.encode()
 mysock.send(cmd)
 
 while True:
