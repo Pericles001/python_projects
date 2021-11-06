@@ -34,3 +34,12 @@ It allows conversion of JavaScript code in a document and the executes it. Then 
 ## CLI web browser
 
 Our simple browser is a program which uses network protocoles to retrieve the page that we place as variable and let us navigate through it . 
+
+## How it works
+
+* Copy url adress from any source
+* Paste url in the code at the required emplacements
+
+![](resources/browser.jpg)
+
+* save and run program in terminal
