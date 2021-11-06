@@ -42,6 +42,7 @@ Our simple browser is a program which uses network protocoles to retrieve the pa
 * Copy url adress from any source
 * Paste url in the code at the required emplacements
 
-![](resources/browser.jpg)
+        * mysock.connect(('https://mywebsitename', 80))
+        * cmd = 'GET https://mywebsitename/page.html HTTP/1.0\r\n\r\n'.encode()
 
 * save and run program in terminal
