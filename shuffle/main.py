@@ -1,5 +1,5 @@
 # tHIS IS THE MAIN FILE PROGRAM TO SHUFFLE ITEMS
-from random import shuffle
+from random import *
 
 items = []
 
@@ -20,7 +20,7 @@ def shuffle_items():
     """Shuffle items which where taken"""
     print("Shuffling items...")
     shuffle(items)
-    return items[1]
+    print ('value: {}'.format(items[choice(range(0, len(items)))]))
 
 
 
