@@ -19,12 +19,15 @@ def get_items():
 def shuffle_items():
     """Shuffle items which where taken"""
     print("Shuffling items...")
-    print("Shuffled items: {}".format(shuffle(items)))
+    shuffle(items)
+    return items[1]
+
 
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     get_items()
+    print (items[1])
     shuffle_items()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
