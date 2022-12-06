@@ -3,6 +3,7 @@ from random import *
 
 items = []
 
+
 def get_items():
     """ Get items to shuffle as   a list"""
     print('Enter items to shuffle, one per line.\n')
@@ -20,8 +21,7 @@ def shuffle_items():
     """Shuffle items which where taken"""
     print("Shuffling items...")
     shuffle(items)
-    print ('Randomly picked value: {}'.format(items[choice(range(0, len(items)))]))
-
+    print('Randomly picked value: {}'.format(items[choice(range(0, len(items)))]))
 
 
 # Press the green button in the gutter to run the script.
