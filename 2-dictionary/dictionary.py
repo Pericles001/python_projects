@@ -23,15 +23,32 @@ def save_line():
         print("An error occurred:", e)
 
 
-def take_argument(target_word):
+def take_argument(target_word=""):
     """
     this function will take a word as argument
 
     :return:
     """
     try:
-        print("Enter a word: \m")
+        print("Welcome to our custom dictionary.")
+        print("Enter a word to get their meaning or enter 00 to exit: \n")
         target_word = input()
-        return target_word
+        return target_word.lower()
     except Exception as e:
         print(e)
+
+
+def search_word(target):
+    """
+    Method to search a word in the dictionary using target and data.txt file
+    :param target:
+    :return:
+    """
+    with open('data.txt', 'r', encoding='utf-8') as file:
+        # the word is the sequence before ':' so we split the line and compare the first element
+        for line in file:
+            if line.split(':')[0] == target:
+                return line
+            elif target == "00":
+                return "Goodbye!"
+        return "The word doesn't exist. Please double check it."
