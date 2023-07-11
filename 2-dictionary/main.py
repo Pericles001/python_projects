@@ -13,7 +13,10 @@ if __name__ == "__main__":
     """
     try:
         save_line()
-        target_word = take_argument()
-        print(search_word(target_word))
+        while True:
+            target_word = take_argument()
+            print(search_word(target_word))
+            if target_word == "00":
+                break
     except Exception as e:
         print(e)
