@@ -5,10 +5,9 @@ API url : https://api.dictionaryapi.dev/api/v2/entries/en/<word>
 """
 
 import socket
-import sys
-import os
 
-from ..a_offline_dictionary.dictionary import save_line, take_argument, search_word
+import requests
+
 
 
 def internet_checker():
@@ -38,12 +37,29 @@ def get_word():
         print(e)
 
 
-def redirect_to_offline():
-    """
-    Method to redirect to offline dictionary
-    :return:
-    """
-    print("You are offline. Redirecting to offline dictionary.")
+def search_word_online(target):
+    """"
+    Function that searches for a given word in online API repo and returns the definitions
+   Args:
+        target (str): The word to search for
 
+    Returns:
+        list: List of definitions and meanings
+    """
+    api_url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{target}"
+    try:
+        response = requests.get(api_url)
+        response_data = response.json()
 
-take_argument()
+        if isinstance(response_data, list) and len(response_data) > 0:
+            word_data = response_data[0]
+            if "meanings" in word_data:
+                meanings = word_data["meanings"]
+                return meanings
+            else:
+                return []
+        else:
+            return []
+
+    except requests.exceptions.RequestException as E:
+        print("Error occured : " + E)
