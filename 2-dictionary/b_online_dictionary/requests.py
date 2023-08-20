@@ -8,16 +8,12 @@ import socket
 import sys
 import os
 
-sys.path.append("a-offline_dictionary")
-# save_line = __import__('a-offline_dictionary.dictionary').save_line
-take_argument = __import__('2-dictionary/a-offline_dictionary.dictionary').take_argument
-
-take_argument()
+from ..a_offline_dictionary.dictionary import save_line, take_argument, search_word
 
 
 def internet_checker():
     """
-    Method to check if machine is connected to internet and return True or False
+    Method to check if machine is connected to the internet and return True or False
     :return: Boolean
     """
     try:
