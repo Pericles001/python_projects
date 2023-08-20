@@ -25,7 +25,7 @@ def save_line():
 
 def take_argument(target_word=""):
     """
-    this function will take a word as argument
+    this function will take a word as an argument
 
     :return:
     """
