@@ -1,0 +1,10 @@
+grace.lee@example.com
+john.doe@example.com
+jane.smith@example.com
+charlie.wilson@example.com
+harry.moore@example.com
+david.johnson@example.com
+bob.brown@example.com
+frank.miller@example.com
+alice.jones@example.com
+emily.davis@example.com
